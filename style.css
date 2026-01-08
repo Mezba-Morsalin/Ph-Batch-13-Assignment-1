@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+body {
+    height: 3000px;
+}
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -30,7 +33,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 .nav-links ul {
     display: flex;
@@ -51,3 +54,70 @@
     transition: 0.3s;
 }
 /* Header Section Ended */
+
+/* Banner Section */
+.banner-section {
+    min-height: 100vh;
+    background: url(./assets/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 20px;
+}
+.default-pgraph {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 14px;
+    border-radius: 30px;
+    background: #ffffff;
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.banner-content h1 {
+    font-size: 70px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.default-heading {
+    color: #30B868 ;
+}
+.default-pgraph2 {
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 26px;
+    padding: 0 30px;
+    margin-bottom: 30px;
+}
+.banner-btn {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.default-btn:hover {
+    color: #ffffff;
+}
+.btn-2 {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 11px 12px;
+}
+.btn-2:hover {
+    background-color: #469165;
+    border:2px solid #469165;
+    transition: 0.3s;
+}
