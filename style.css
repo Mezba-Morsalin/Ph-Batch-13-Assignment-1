@@ -122,11 +122,10 @@
 
 /* Note Section Started */
 .note-section {
-    margin-top: 80px;
     background-color: #fbfbfb;
 }
 .note-container {
-    padding: 80px 0 ;
+    padding: 100px 0 ;
 }
 .note-heading {
     text-align: center;
@@ -257,3 +256,48 @@
     color: #627382;
 }
 /* Early Access Section Ended*/
+
+/* Footer Section Started */
+.footer-section {
+    background-color: #001931;
+    margin-top: 100px;
+    padding: 90px 0 40px 0;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.footer-icon h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.footer-icon a {
+    background-color: #ffffff;
+    color: #001931;
+    padding: 2px;
+    border-radius: 100%;
+    margin-right: 10px;
+    border: 1px solid #ffffff;
+}
+.footer-icon a:hover {
+    background-color: transparent;
+    color: #ffffff;
+    transition: 0.3s;
+}
+.hr {
+    border: none;
+    background-color: #627382;
+    height: 1px;
+    margin-bottom: 40px;
+}
+.center {
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+}
+/* Footer Section Ended */
