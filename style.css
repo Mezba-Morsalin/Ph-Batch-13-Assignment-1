@@ -43,7 +43,7 @@
 .nav-links ul li a {
     text-decoration: none;
     font-size: 16px;
-    color: black;
+    color: #001931;
     font-weight: 500;
 }
 .nav-links ul li a:hover {
@@ -121,6 +121,7 @@
 
 /* Note Section */
 .note-section {
+    margin-top: 80px;
     background-color: #fbfbfb;
 }
 .note-container {
@@ -131,7 +132,7 @@
     margin-bottom: 40px;
 }
 .note-heading h2 {
-    color: #000000;
+    color: #001931;
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 15px;
@@ -147,8 +148,9 @@
     gap: 30px;
 }
 .note-card{
+    background-color: #ffffff;
     text-align: center;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);;
     padding: 40px 20px;
     border-radius: 8px;
 }
@@ -159,7 +161,7 @@
     margin-bottom: 10px;
 }
 .note-card h3 {
-    color: #000000;
+    color: #001931;
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 20px;
@@ -168,4 +170,45 @@
     font-size: 16px;
     font-weight: 400;
     color: #627382;
+}
+
+/* Second Brain Section */
+.second-brain-section {
+    margin-top: 100px;
+}
+.second-brain-container {
+    display: flex;
+    align-items:center ;
+    gap: 50px;
+}
+.second-brain-img img {
+    width: 600px;
+}
+.brain-pgrapgh {
+    color: #30B868;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.second-brain-content h2 {
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.brain-pgrapgh2 {
+    color: #627382;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.icon-text {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.icon-text p {
+    color: #001931;
+    font-size: 16px;
+    font-weight: 500;
 }
