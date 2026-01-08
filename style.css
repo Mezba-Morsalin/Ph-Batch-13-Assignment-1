@@ -52,7 +52,7 @@
 }
 /* Header Section Ended */
 
-/* Banner Section */
+/* Banner Section Started */
 .banner-section {
     min-height: 100vh;
     background: url(./assets/hero-bg.png);
@@ -118,8 +118,9 @@
     border:2px solid #469165;
     transition: 0.3s;
 }
+/* Banner Section Ended */
 
-/* Note Section */
+/* Note Section Started */
 .note-section {
     margin-top: 80px;
     background-color: #fbfbfb;
@@ -171,8 +172,9 @@
     font-weight: 400;
     color: #627382;
 }
+/* Note Section Ended */
 
-/* Second Brain Section */
+/* Second Brain Section Started */
 .second-brain-section {
     margin-top: 100px;
 }
@@ -183,6 +185,9 @@
 }
 .second-brain-img img {
     width: 600px;
+}
+.second-brain-content {
+    padding-right: 40px;
 }
 .brain-pgrapgh {
     color: #30B868;
@@ -212,3 +217,43 @@
     font-size: 16px;
     font-weight: 500;
 }
+/* Second Brain Section Ended */
+
+/* Early Access Section Started*/
+.early-access-section {
+    margin-top: 100px;
+    background-color: #f7f6f2;
+    border-radius: 8px;
+}
+.early-access-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 170px 50px 170px;
+}
+.early-access-container h1 {
+    color: #001931;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.early-pgraph {
+    font-size: 16px;
+    color: #627382;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.early-btn {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4) ;
+    margin-bottom: 20px;
+}
+.early-pgraph2 {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.early-pgraph2 p {
+    font-size: 16px;
+    color: #627382;
+}
+/* Early Access Section Ended*/
