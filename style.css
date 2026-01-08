@@ -4,3 +4,50 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.btn {
+    background-color: #469165;
+    padding: 10px 12px;
+    border: 2px solid #469165;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn:hover {
+    background-color: transparent;
+    color: #469165;
+    transition: 0.3s;
+}
+
+/* Header Section Started */
+/* Navbar Section */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.nav-links ul {
+    display: flex;
+    gap: 30px;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+}
+.nav-links ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+}
+.nav-links ul li a:hover {
+    color: #469165;
+    transition: 0.3s;
+}
+/* Header Section Ended */
